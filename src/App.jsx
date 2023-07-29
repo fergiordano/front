@@ -59,12 +59,12 @@ function App() {
       <div className="bg-slate-50 h-screen">
         <NavBar />
         <Header
-          /*allProducts={allProducts}
+          allProducts={allProducts}
           setAllProducts={setAllProducts}
           total={total}
           setTotal={setTotal}
           countProducts={countProducts}
-          setCountProducts={setCountProducts}*/
+          setCountProducts={setCountProducts}
         />
         <Layout>
         <Routes>
